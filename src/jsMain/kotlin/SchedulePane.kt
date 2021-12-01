@@ -118,7 +118,7 @@ fun nextTalk(schedule: Data<Schedule>) {
                 }
             }) {
                 s.talk.data.speakers.forEach { speaker ->
-                    Img(src = "/imgs/speakers/${speaker.id}.jpeg") {
+                    Img(src = "imgs/speakers/${speaker.id}.jpeg") {
                         style {
                             width(4.em)
                             borderRadius(0.25.em)
